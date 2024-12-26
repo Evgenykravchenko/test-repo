@@ -2,6 +2,10 @@ package backend.academy;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        greet("User");
+    }
+
+    public static voi greet(String name) {
+        System.out.println("Hello, " + name + "!");
     }
 }
